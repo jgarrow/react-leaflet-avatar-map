@@ -12,6 +12,45 @@
                 "type": "Point",
                 "coordinates": [52, 278]
             }
+        },
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 102,
+                "NAME": "HeiBai's Forest",
+                "DESCRIPTION": "Home to the spirit, HaiBai. The forest was burned down by the Fire Nation during the 100 Year War"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [127, 225]
+            }
+        },
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 103,
+                "NAME": "Jet's Forest",
+                "DESCRIPTION": "Home to Jet and his gang after they lost their homes to the Fire Nation"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [146, 242]
+            }
+        },
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 104,
+                "NAME": "The Great Divide",
+                "DESCRIPTION": "Giant Canyon. The only way to cross is with a canyone guide that knows earthbending. DO NOT BRING FOOD INTO THE CANYON"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [135, 274]
+            }
         }
     ]
 }

@@ -131,6 +131,45 @@
             }
         },
         {
+            "type": "Village",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 27,
+                "NAME": "Fishing Village",
+                "DESCRIPTION": "Small fishing village that Avatar Aang and his friends stopped at on their way to the North Pole"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [153, 221]
+            }
+        },
+        {
+            "type": "Village",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 28,
+                "NAME": "Makapu Village",
+                "DESCRIPTION": "Village at the foot of a volcano that Avatar Aang saved when it erupted. Home to Aunt Wu, the village fortune teller"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [170, 199]
+            }
+        },
+        {
+            "type": "Abbey",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 30,
+                "NAME": "The Abbey",
+                "DESCRIPTION": "Abbey where Avatar Aang and his friends found Bato of the Southern Water Tribe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [178, 185]
+            }
+        },
+        {
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
@@ -193,6 +232,45 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [152, 73]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 16,
+                "NAME": "Crescent Island",
+                "DESCRIPTION": "Once home to the temple of the Fire Sages and shrine to Avatar Roku"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [118, 196]
+            }
+        },
+        {
+            "type": "Stronghold",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 20,
+                "NAME": "Pohuai Stronghold",
+                "DESCRIPTION": "Fire Nation fortress where Avatar Aang was held captive after being captured by Admiral Zhao and his Yuyan Archers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [157.5, 218]
+            }
+        },
+        {
+            "type": "Village",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 38,
+                "NAME": "Fire Nation Colony",
+                "DESCRIPTION": "Site of the Fire Days' Festival where Avatar Aang met his first firebending master -- Jongjong "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [160, 222]
             }
         }
     ]

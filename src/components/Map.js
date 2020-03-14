@@ -58,74 +58,7 @@ export default ({ toggleJourneyPaths }) => {
                 activeCity={activeCity}
                 setActiveCity={setActiveCity}
             />
-            {toggleJourneyPaths.book1 && <JourneyPath />}
-
-            {/* {cityData.locations.map(city => {
-                const [markerColor, setMarkerColor] = useState("blue");
-                const [markerSize, setMarkerSize] = useState(5);
-
-                const handleMouseOver = () => {
-                    setMarkerColor("black");
-                    // setMarkerSize(8);
-                };
-
-                const handleMouseOut = () => {
-                    let color = markerColor;
-                    if (city.nation === "Earth Kingdom") {
-                        color = "darkgreen";
-                    } else if (city.nation === "Air Nation") {
-                        color = "ghostwhite";
-                    } else if (city.nation === "Fire Nation") {
-                        color = "firebrick";
-                    } else if (city.nation === "Water Tribe") {
-                        color = "deepskyblue";
-                    }
-
-                    setMarkerColor(color);
-                    // setMarkerSize(5);
-                };
-
-                useEffect(() => {
-                    let color = "blue";
-                    if (city.nation === "Earth Kingdom") {
-                        color = "darkgreen";
-                    } else if (city.nation === "Air Nation") {
-                        color = "ghostwhite";
-                    } else if (city.nation === "Fire Nation") {
-                        color = "firebrick";
-                    } else if (city.nation === "Water Tribe") {
-                        color = "deepskyblue";
-                    }
-
-                    setMarkerColor(color);
-                }, [city.nation]);
-
-                return (
-                    <CircleMarker
-                        key={city.properties.CITY_ID}
-                        center={city.geometry.coordinates}
-                        color={markerColor}
-                        radius={markerSize}
-                        onMouseOver={() => handleMouseOver()}
-                        onMouseOut={() => handleMouseOut()}
-                        onClick={() => {
-                            setActiveCity(city);
-                        }}
-                    >
-                        {activeCity && (
-                            <Popup
-                                position={city.geometry.coordinates}
-                                onClose={() => {
-                                    setActiveCity(null);
-                                }}
-                            >
-                                <h2>{activeCity.properties.NAME}</h2>
-                                <p>{activeCity.properties.DESCRIPTION}</p>
-                            </Popup>
-                        )}
-                    </CircleMarker>
-                );
-            })} */}
+            {toggleJourneyPaths.book1 && <JourneyPath book="book1" />}
         </Map>
     );
 };
