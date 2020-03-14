@@ -4,8 +4,9 @@ import L, { CRS } from "leaflet";
 
 import CityMarkers from "./CityMarkers";
 import LandmarkMarkers from "./LandmarkMarkers";
+import JourneyPath from "./Polyline";
 
-export default () => {
+export default ({ toggleJourneyPaths }) => {
     const [initialPos] = useState([90, 235]);
     const [activeCity, setActiveCity] = useState(null);
 
@@ -57,6 +58,7 @@ export default () => {
                 activeCity={activeCity}
                 setActiveCity={setActiveCity}
             />
+            {toggleJourneyPaths.book1 && <JourneyPath />}
 
             {/* {cityData.locations.map(city => {
                 const [markerColor, setMarkerColor] = useState("blue");

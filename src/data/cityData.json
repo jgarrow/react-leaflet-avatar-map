@@ -105,10 +105,23 @@
             }
         },
         {
-            "type": "City",
+            "type": "Village",
             "nation": "Earth Kingdom",
             "properties": {
                 "CITY_ID": 9,
+                "NAME": "Haru's Village",
+                "DESCRIPTION": "Home to Haru, a village whose earthbenders were all captured and imprisoned by the Fire Nation during the 100 Year War"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [95, 225]
+            }
+        },
+        {
+            "type": "City",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 10,
                 "NAME": "Ba Sing Se",
                 "DESCRIPTION": "Governed by the Earth Queen, Ba Sing Se is divided into 3 sections: the Upper Ring, Middle Ring, and Lower Ring"
             },
@@ -121,7 +134,7 @@
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 10,
+                "CITY_ID": 11,
                 "NAME": "Roku's Island",
                 "DESCRIPTION": "Home of Avatar Roku. Eruption of a volcano destroyed everything and resulted in the death of the Avatar."
             },
@@ -134,7 +147,7 @@
             "type": "City",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 11,
+                "CITY_ID": 12,
                 "NAME": "Fire Nation Capital",
                 "DESCRIPTION": "Home of the Firelord"
             },
@@ -147,7 +160,7 @@
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 12,
+                "CITY_ID": 13,
                 "NAME": "Ember Island",
                 "DESCRIPTION": "Home of the Ember Island Players."
             },
@@ -160,7 +173,7 @@
             "type": "Ruins",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 13,
+                "CITY_ID": 14,
                 "NAME": "Sun Warriors' Civilization",
                 "DESCRIPTION": "Home of the ancient civilization of the Sun Warriors."
             },
@@ -173,7 +186,7 @@
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 14,
+                "CITY_ID": 15,
                 "NAME": "Boiling Rock",
                 "DESCRIPTION": "Fire Nation prison for high profile enemies and criminals."
             },
