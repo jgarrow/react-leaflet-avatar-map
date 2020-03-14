@@ -144,6 +144,19 @@
             }
         },
         {
+            "type": "Stronghold",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 36,
+                "NAME": "Fong's Base",
+                "DESCRIPTION": "Earth Kingdom army base held by General Fong"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [107, 219]
+            }
+        },
+        {
             "type": "Village",
             "nation": "Earth Kingdom",
             "properties": {

@@ -59,6 +59,8 @@ export default ({ toggleJourneyPaths }) => {
                 setActiveCity={setActiveCity}
             />
             {toggleJourneyPaths.book1 && <JourneyPath book="book1" />}
+            {toggleJourneyPaths.book2 && <JourneyPath book="book2" />}
+            {toggleJourneyPaths.book3 && <JourneyPath book="book3" />}
         </Map>
     );
 };
