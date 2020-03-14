@@ -1,0 +1,186 @@
+{
+    "locations": [
+        {
+            "type": "City",
+            "nation": "Water Tribe",
+            "properties": {
+                "CITY_ID": 1,
+                "NAME": "Northern Water Tribe",
+                "DESCRIPTION": "Capital of the Northern Water Tribe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [263, 191]
+            }
+        },
+        {
+            "type": "Village",
+            "nation": "Water Tribe",
+            "properties": {
+                "CITY_ID": 2,
+                "NAME": "Hakoda's Tribe",
+                "DESCRIPTION": "Home of Hakoda, Katara, and Sokka. Location of the discovery of Avatar Aang frozen in an iceberg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77, 135]
+            }
+        },
+        {
+            "type": "Air Temple",
+            "nation": "Air Nation",
+            "properties": {
+                "CITY_ID": 3,
+                "NAME": "Southern Air Temple",
+                "DESCRIPTION": "Home of Avatar Aang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-20, 175]
+            }
+        },
+        {
+            "type": "Air Temple",
+            "nation": "Air Nation",
+            "properties": {
+                "CITY_ID": 4,
+                "NAME": "Eastern Air Temple",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [45, 445]
+            }
+        },
+        {
+            "type": "Air Temple",
+            "nation": "Air Nation",
+            "properties": {
+                "CITY_ID": 5,
+                "NAME": "Northern Air Temple",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [242, 288]
+            }
+        },
+        {
+            "type": "Air Temple",
+            "nation": "Air Nation",
+            "properties": {
+                "CITY_ID": 6,
+                "NAME": "Western Air Temple",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [200, 105]
+            }
+        },
+        {
+            "type": "City",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 7,
+                "NAME": "Omashu",
+                "DESCRIPTION": "Governed by King Boomy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [80, 275]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 8,
+                "NAME": "Kyoshi Island",
+                "DESCRIPTION": "Created by Avatar Kyoshi to protect her people from Chin the Conqueror"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [15, 255]
+            }
+        },
+        {
+            "type": "City",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 9,
+                "NAME": "Ba Sing Se",
+                "DESCRIPTION": "Governed by the Earth Queen, Ba Sing Se is divided into 3 sections: the Upper Ring, Middle Ring, and Lower Ring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [170, 373]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 10,
+                "NAME": "Roku's Island",
+                "DESCRIPTION": "Home of Avatar Roku. Eruption of a volcano destroyed everything and resulted in the death of the Avatar."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [102, 144]
+            }
+        },
+        {
+            "type": "City",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 11,
+                "NAME": "Fire Nation Capital",
+                "DESCRIPTION": "Home of the Firelord"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [100, 30.5]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 12,
+                "NAME": "Ember Island",
+                "DESCRIPTION": "Home of the Ember Island Players."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114, 89.5]
+            }
+        },
+        {
+            "type": "Ruins",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 13,
+                "NAME": "Sun Warriors' Civilization",
+                "DESCRIPTION": "Home of the ancient civilization of the Sun Warriors."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [172, 57]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 14,
+                "NAME": "Boiling Rock",
+                "DESCRIPTION": "Fire Nation prison for high profile enemies and criminals."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [152, 73]
+            }
+        }
+    ]
+}

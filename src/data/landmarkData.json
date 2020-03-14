@@ -1,0 +1,17 @@
+{
+    "locations": [
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 101,
+                "NAME": "The Swamp",
+                "DESCRIPTION": "Massive swamp filled with mysterious 'spirit energy'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52, 278]
+            }
+        }
+    ]
+}
