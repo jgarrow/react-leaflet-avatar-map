@@ -27,62 +27,10 @@
             }
         },
         {
-            "type": "Village",
-            "nation": "Earth Kingdom",
-            "properties": {
-                "CITY_ID": 46,
-                "NAME": "Chin",
-                "DESCRIPTION": "Village that celebrates Avatar Day. They originally hated the Avatar because of a misunderstanding about Avatar Kyoshi and the death of Chin the Conqueror. After Avatar Aang saved the village from the Rough Rhinos, they loved the Avatar again and now celebrate them"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [21.5, 259.5]
-            }
-        },
-        {
-            "type": "Town",
-            "nation": "Earth Kingdom",
-            "properties": {
-                "CITY_ID": 6,
-                "NAME": "Gaoling",
-                "DESCRIPTION": "An old, well-established town home to some wealthy Earth Kingdom families. Site of the popular Earth Rumble 6. Where Avatar Aang first meets his earthbending teacher, Toph"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [28, 297]
-            }
-        },
-        {
-            "type": "Town",
-            "nation": "Earth Kingdom",
-            "properties": {
-                "CITY_ID": 6,
-                "NAME": "Misty Palms Oasis",
-                "DESCRIPTION": "An oasis at the edge of the desert"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [63, 310]
-            }
-        },
-        {
-            "type": "Town",
-            "nation": "Earth Kingdom",
-            "properties": {
-                "CITY_ID": 56,
-                "NAME": "Full Moon Bay",
-                "DESCRIPTION": "Ferry site for refugees trying to get to Ba Sing Se"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [130, 310]
-            }
-        },
-        {
             "type": "Landmark",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 106,
+                "CITY_ID": 103,
                 "NAME": "Serpent's Pass",
                 "DESCRIPTION": "Dangerous land bridge whose water is home to a giant sea serpent"
             },
@@ -92,10 +40,10 @@
             }
         },
         {
-            "type": "Ruins",
+            "type": "Landmark",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 50,
+                "CITY_ID": 104,
                 "NAME": "The Library",
                 "DESCRIPTION": "A giant library under the sands of the desert. Run by the spirit Wan Shi Tong"
             },
@@ -105,10 +53,10 @@
             }
         },
         {
-            "type": "Lake",
+            "type": "Landmark",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 107,
+                "CITY_ID": 105,
                 "NAME": "Lake Laogai",
                 "DESCRIPTION": "Lake in Ba Sing Se with prisons and secret rooms for Earth Kingdom prisoners and brainwashings"
             },
@@ -117,24 +65,12 @@
                 "coordinates": [177, 392]
             }
         },
-        {
-            "type": "Town",
-            "nation": "Earth Kingdom",
-            "properties": {
-                "CITY_ID": 42,
-                "NAME": "Tu Zin",
-                "DESCRIPTION": "An abandoned village site of a conflict between Avatar Aang and his friends, Prince Zuko, and Princess Azula"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [45, 350]
-            }
-        },
+
         {
             "type": "Landmark",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 103,
+                "CITY_ID": 106,
                 "NAME": "Jet's Forest",
                 "DESCRIPTION": "Home to Jet and his gang after they lost their homes to the Fire Nation"
             },
@@ -147,7 +83,7 @@
             "type": "Landmark",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 104,
+                "CITY_ID": 107,
                 "NAME": "The Great Divide",
                 "DESCRIPTION": "Giant Canyon. The only way to cross is with a canyone guide that knows earthbending. DO NOT BRING FOOD INTO THE CANYON"
             },
@@ -160,7 +96,7 @@
             "type": "Landmark",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 105,
+                "CITY_ID": 108,
                 "NAME": "Lovers' Cave",
                 "DESCRIPTION": "Cave of Two Lovers infamous for travellers getting lost. If you can find your way through, you will arrive at Omashu"
             },
@@ -170,16 +106,68 @@
             }
         },
         {
-            "type": "Bay",
+            "type": "Landmark",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 117,
+                "CITY_ID": 109,
                 "NAME": "Chameleon Bay",
                 "DESCRIPTION": "Where Avatar Aang and his friends meet up with Hakoda and the rest of the invasion group"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [110, 413]
+            }
+        },
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 110,
+                "NAME": "Sheltered Cove",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [120, 168.5]
+            }
+        },
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 111,
+                "NAME": "Black Cliffs",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [96, 80]
+            }
+        },
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 112,
+                "NAME": "Gates of Azulon",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [96, 67]
+            }
+        },
+        {
+            "type": "Landmark",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 113,
+                "NAME": "Whale Tale Island",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [17, 225]
             }
         }
     ]

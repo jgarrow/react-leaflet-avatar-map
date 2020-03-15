@@ -134,7 +134,7 @@
             "type": "Village",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 27,
+                "CITY_ID": 11,
                 "NAME": "Fishing Village",
                 "DESCRIPTION": "Small fishing village that Avatar Aang and his friends stopped at on their way to the North Pole"
             },
@@ -147,7 +147,7 @@
             "type": "Stronghold",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 36,
+                "CITY_ID": 12,
                 "NAME": "Fong's Base",
                 "DESCRIPTION": "Earth Kingdom army base held by General Fong"
             },
@@ -160,7 +160,7 @@
             "type": "Village",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 28,
+                "CITY_ID": 13,
                 "NAME": "Makapu Village",
                 "DESCRIPTION": "Village at the foot of a volcano that Avatar Aang saved when it erupted. Home to Aunt Wu, the village fortune teller"
             },
@@ -170,10 +170,75 @@
             }
         },
         {
+            "type": "Town",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 14,
+                "NAME": "Misty Palms Oasis",
+                "DESCRIPTION": "An oasis at the edge of the desert"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [63, 310]
+            }
+        },
+        {
+            "type": "Town",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 15,
+                "NAME": "Tu Zin",
+                "DESCRIPTION": "An abandoned village site of a conflict between Avatar Aang and his friends, Prince Zuko, and Princess Azula"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [45, 350]
+            }
+        },
+        {
+            "type": "Town",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 16,
+                "NAME": "Full Moon Bay",
+                "DESCRIPTION": "Ferry site for refugees trying to get to Ba Sing Se"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [130, 310]
+            }
+        },
+        {
+            "type": "Town",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 17,
+                "NAME": "Gaoling",
+                "DESCRIPTION": "An old, well-established town home to some wealthy Earth Kingdom families. Site of the popular Earth Rumble 6. Where Avatar Aang first meets his earthbending teacher, Toph"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [28, 297]
+            }
+        },
+        {
+            "type": "Village",
+            "nation": "Earth Kingdom",
+            "properties": {
+                "CITY_ID": 18,
+                "NAME": "Chin",
+                "DESCRIPTION": "Village that celebrates Avatar Day. They originally hated the Avatar because of a misunderstanding about Avatar Kyoshi and the death of Chin the Conqueror. After Avatar Aang saved the village from the Rough Rhinos, they loved the Avatar again and now celebrate them"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.5, 259.5]
+            }
+        },
+        {
             "type": "Abbey",
             "nation": "Earth Kingdom",
             "properties": {
-                "CITY_ID": 30,
+                "CITY_ID": 19,
                 "NAME": "The Abbey",
                 "DESCRIPTION": "Abbey where Avatar Aang and his friends found Bato of the Southern Water Tribe"
             },
@@ -186,7 +251,7 @@
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 11,
+                "CITY_ID": 20,
                 "NAME": "Roku's Island",
                 "DESCRIPTION": "Home of Avatar Roku. Eruption of a volcano destroyed everything and resulted in the death of the Avatar."
             },
@@ -199,7 +264,7 @@
             "type": "City",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 12,
+                "CITY_ID": 21,
                 "NAME": "Fire Nation Capital",
                 "DESCRIPTION": "Home of the Firelord"
             },
@@ -212,7 +277,7 @@
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 13,
+                "CITY_ID": 22,
                 "NAME": "Ember Island",
                 "DESCRIPTION": "Home of the Ember Island Players."
             },
@@ -225,7 +290,7 @@
             "type": "Ruins",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 14,
+                "CITY_ID": 23,
                 "NAME": "Sun Warriors' Civilization",
                 "DESCRIPTION": "Home of the ancient civilization of the Sun Warriors."
             },
@@ -238,7 +303,7 @@
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 15,
+                "CITY_ID": 24,
                 "NAME": "Boiling Rock",
                 "DESCRIPTION": "Fire Nation prison for high profile enemies and criminals."
             },
@@ -251,7 +316,7 @@
             "type": "Island",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 16,
+                "CITY_ID": 25,
                 "NAME": "Crescent Island",
                 "DESCRIPTION": "Once home to the temple of the Fire Sages and shrine to Avatar Roku"
             },
@@ -264,7 +329,7 @@
             "type": "Stronghold",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 20,
+                "CITY_ID": 26,
                 "NAME": "Pohuai Stronghold",
                 "DESCRIPTION": "Fire Nation fortress where Avatar Aang was held captive after being captured by Admiral Zhao and his Yuyan Archers"
             },
@@ -277,13 +342,91 @@
             "type": "Village",
             "nation": "Fire Nation",
             "properties": {
-                "CITY_ID": 38,
+                "CITY_ID": 27,
                 "NAME": "Fire Nation Colony",
                 "DESCRIPTION": "Site of the Fire Days' Festival where Avatar Aang met his first firebending master -- Jongjong "
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [160, 222]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 28,
+                "NAME": "Onji's Island",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [129.5, 191]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 29,
+                "NAME": "Jang Hui",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [133.5, 186]
+            }
+        },
+        {
+            "type": "Island",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 30,
+                "NAME": "Shu Jing",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [133, 175]
+            }
+        },
+        {
+            "type": "City",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 31,
+                "NAME": "Fire Fountain City",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [93, 118]
+            }
+        },
+        {
+            "type": "Village",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 32,
+                "NAME": "Hama's Village",
+                "DESCRIPTION": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [106, 91]
+            }
+        },
+        {
+            "type": "Village",
+            "nation": "Fire Nation",
+            "properties": {
+                "CITY_ID": 33,
+                "NAME": "YonRha's Village",
+                "DESCRIPTION": "Home of YonRha who led the Southern Raiders to wipe out the waterbenders of the Southern Water Tribe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50, 88]
             }
         }
     ]

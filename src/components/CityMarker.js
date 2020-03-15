@@ -14,7 +14,7 @@ const CityMarker = ({ city, setActiveCity, activeCity }) => {
         } else if (city.nation === "Fire Nation") {
             color = "firebrick";
         } else if (city.nation === "Water Tribe") {
-            color = "deepskyblue";
+            color = "cornflowerblue";
         }
 
         setMarkerColor(color);

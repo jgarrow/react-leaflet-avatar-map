@@ -3,11 +3,14 @@ import { Polyline } from "react-leaflet";
 
 const JourneyPath = ({ book }) => {
     const [pathPositions, setPathPositions] = useState([]);
+    const [pathColor, setPathColor] = useState("firebrick");
 
     useEffect(() => {
         let positions = [];
+        let color = "blue";
 
         if (book === "book1") {
+            color = "steelblue";
             positions = [
                 [-77, 135], // Hakoda's Village
                 [-20, 175], // Southern Air Temple
@@ -28,6 +31,7 @@ const JourneyPath = ({ book }) => {
                 [263, 191] // Norther Water Tribe
             ];
         } else if (book === "book2") {
+            color = "darkseagreen";
             positions = [
                 [263, 191], // Norther Water Tribe
                 [107, 219], // Fong's Base (avatar state episode)
@@ -46,6 +50,7 @@ const JourneyPath = ({ book }) => {
                 [170, 373] // Ba Sing Se
             ];
         } else if (book === "book3") {
+            color = "slategray";
             positions = [
                 [170, 373], // Ba Sing Se
                 [110, 413], // Chameleon Bay
@@ -133,10 +138,11 @@ const JourneyPath = ({ book }) => {
             ];
         }
 
+        setPathColor(color);
         setPathPositions(positions);
     }, [book]);
 
-    return <Polyline positions={pathPositions} />;
+    return <Polyline positions={pathPositions} color={pathColor} />;
 };
 
 export default JourneyPath;
