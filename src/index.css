@@ -36,3 +36,26 @@ code {
     padding: 0;
     line-height: 1;
 }
+
+.buttonContainer {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.bookButton {
+    box-sizing: border-box;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px gray;
+}
+
+.bookButton:hover {
+    box-shadow: 0px 0px 5px 1px gray;
+}
